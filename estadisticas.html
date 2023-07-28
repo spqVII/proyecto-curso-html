@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fútbol: Más que un deporte</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color:hwb(230 58% 10%);
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Fútbol: Más que un deporte</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="estadisticas.html">Estadísticas</a></li>
+                <li><a href="fotos y videos.html">Fotos y videos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Equipos con más títulos en el mundo</h2>
+    <hr>
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: grey;">
+            </colgroup>
+
+            <tr style="background-color: grey;">
+                <td>Puesto</td>
+                <td>Equipo</td>
+                <td>País</td>
+                <td>Títulos</td>
+            </tr>
+            <tr>
+                <td>1°</td>
+                <td>Nacional</td>
+                <td>Uruguay</td>
+                <td>146</td>
+            </tr>
+            <tr>
+                <td>2°</td>
+                <td>Peñarol</td>
+                <td>Uruguay</td>
+                <td>127</td>
+            </tr>
+            <tr>
+                <td>3°</td>
+                <td>Al Ahly</td>
+                <td>Egipto</td>
+                <td>119</td>
+            </tr>
+            <tr>
+                <td>4°</td>
+                <td>Rangers</td>
+                <td>Escocia</td>
+                <td>115</td>
+            </tr>
+            <tr>
+                <td>5°</td>
+                <td>Celtic</td>
+                <td>Escocia</td>
+                <td>110</td>
+            </tr>
+            <tr>
+                <td>6°</td>
+                <td>Real Madrid</td>
+                <td>España</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <td>7°</td>
+                <td>Barcelona</td>
+                <td>España</td>
+                <td>91</td>
+            </tr>
+            <tr>
+                <td>8°</td>
+                <td>Benfica</td>
+                <td>Portugal</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>9°</td>
+                <td>Al Faisaly</td>
+                <td>Jordania</td>
+                <td>81</td>
+            </tr>
+            <tr>
+                <td>10°</td>
+                <td>Porto</td>
+                <td>Portugal</td>
+                <td>79</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023
+    </footer>
+    </p>
+</body>
+
+</html>

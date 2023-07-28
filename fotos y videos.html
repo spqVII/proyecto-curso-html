@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fútbol: Más que un deporte</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: hwb(230 58% 10%);
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>El deporte Rey</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="estadisticas.html">Estadísticas</a></li>
+                <li><a class="active" href="fotos y videos.html">Fotos y videos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <section class="centrado">
+            <div>
+                <div class="gallery"><a href="assets/img/9-12-2018.jpg" target="_blank"><img
+                            src="assets/img/9-12-2018.jpg" alt="9-12-2018" height="200"></a></div>
+                <div class="desc">River Plate Campeón Libertadores 2018</div>
+                <div class="gallery"><a href="assets/img/barca.jpg" target="_blank"><img src="assets/img/barca.jpg"
+                            alt="Barcelona campeón" height="200"></a></div>
+                <div class="desc">FC Barcelona Campeón Champions League 2011</div>
+                <div class="gallery"><a href="assets/img/messi.jpg" target="_blank"><img src="assets/img/messi.jpg"
+                            alt="D10S" height="200"></a></div>
+                <div class="desc">Messi Campeón del Mundo 2022</div>
+            </div>
+        </section>
+        <video src="assets/vids/vids.mp4" controls height="600"></video>
+        <br>
+        <p>Para escuchar "Toco y me voy" en la voz de Nahuel Pennisi:</p>
+        <audio src="assets/audio/audio.mp3" controls></audio>
+    </header>
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023
+    </footer>
+    </p>
+</body>
+
+</html>
